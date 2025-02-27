@@ -26,6 +26,9 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Homemade+Apple&display=swap"
     rel="stylesheet">
 
+  <!-- Awesome Font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
   <!-- Vendor CSS -->
   <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
 
@@ -266,42 +269,102 @@
                 </div>
             </div>
 
-            <div class="portfolio-listing d-flex gap-4">
-                <!-- Word Document Item -->
-                <div class="Word-doc">
-                    <img class="img-fluid mb-3" src="./assets/images/portfolio-small-doc.jpg" alt="Report Document" width="150">
-                    <h4>Project Report</h4>
-                    <p>View or download my project report.</p>
-                    <a href="assets/files/Cyclistic_Case_Study.docx" download="Cyclistic_Case_Study.docx" class="btn btn-primary">Download Word Document</a>
+            <!-- Cyclistic Case Study -->
+            <div class="portfolio-description mt-4" data-aos="fade-up">
+                <h4 class="mb-3">Bike-Share Case Study</h4>
+                <p>
+                    This case study explores a bike-share company’s data to uncover key insights, 
+                    following <strong>Google’s data analysis process:</strong> Ask, Prepare, Process, Analyse, Share, and Act.
+                </p>
+                <p>
+                    The objective was to examine how the behavior of <strong>annual members</strong> and <strong>casual riders</strong> differs 
+                    to provide data-driven recommendations for a marketing strategy aimed at converting casual riders into members.
+                </p>
+                <p>
+                    I used <strong>R</strong> via <strong>RStudio</strong> to prepare, process, clean, analyse, and visualise the data.
+                </p>
+            
+                <!-- Cyclistic Download Link -->
+                <div class="mt-3">
+                    <a href="assets/files/Cyclistic_Case_Study.zip" download="Cyclistic_Case_Study.zip" class="btn btn-success">
+                        ⬇️ Download Case Study
+                    </a>
                 </div>
-                
-                <!-- R File Item -->
-                <div class="R-script">
-                    <img class="img-fluid mb-3" src="./assets/images/portfolio-small-code.jpg" alt="R Script" width="150">
-                    <h4>R Script</h4>
-                    <p>Download the R script used in this project.</p>
-                    <a href="assets/files/Data_Processing.R" download="Data_Processing.R" class="btn btn-primary">Download R File</a>
+            </div>
+        </div>        
+        <!-- / My Portfolio-->
+
+        <!-- My Books-->
+        <div class="py-8 books">
+            <div class="mb-6 py-2" data-aos="reveal-right">
+                <h3 class="display-3 lh-1">
+                    <span class="font-script d-block text-danger display-6 lh-1 ps-1">My</span> Books
+                </h3>
+                <div class="f-w-52 text-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 12.32">
+                        <path d="M170,1.88c-18.36-.72-17,8.73-33.3,8.7-17.86,0-26.63-8.43-43.12-10.2C76.84-1.43,66.44,3.69,56.44,6.89,39.25,12.37,10.14,9.6,2.68,1.11,2.16.53-.38.67.05,1.27,3.88,6.63,17.5,10.92,33.64,11.32a85.71,85.71,0,0,0,21.53-2c8.11-1.93,13.35-5,22-6.67,20.93-4,33,5.93,50,8.77,7.09,1.17,14.78,1.25,20.59-.37,6.49-1.8,8.31-5,15.08-6.66C173.06,1.89,181.43,7,190,8.59a68.55,68.55,0,0,0,24.63-.06c3.13-.63.13-2.5-2.92-1.83A52.54,52.54,0,0,1,185.8,5.27C181.17,3.83,176.38,2.14,170,1.88Z" fill="currentColor"/>
+                    </svg>
                 </div>
             </div>
 
+            
             <div class="portfolio-listing">
+                <!-- Book 1 -->
                 <div 
                     class="portfolio-item"
                     data-bs-toggle="modal" 
                     data-bs-target="#portfolioModal"
-                    data-portfolio-img="./assets/images/portfolio-8.jpg"
-                    data-portfolio-title="Happy Cactus"
+                    data-portfolio-img="./assets/images/shinobi-1.jpg"
+                    data-portfolio-title="S"
                     data-portfolio-description="Sed quis mauris id quam rutrum ullamcorper. Donec faucibus eget elit nec iaculis. Vivamus laoreet consectetur felis at consequat. Sed finibus turpis in nisl molestie, eu dignissim nulla pharetra."
-                    data-portfolio-client="JD Limited"
-                    data-portfolio-date=""
-                    data-portfolio-category="Logo &amp; Branding">
-                    <picture class="d-block" data-aos="reveal-left">
-                        <img class="img-fluid" src="./assets/images/portfolio-small-8.jpg" alt="">
-                    </picture>
+                    data-portfolio-genre="Historical Fiction"
+                    data-portfolio-pages="---"
+                    data-portfolio-amazon="https://www.amazon.de/-/en/Danny-Seel-ebook/dp/B0DSQ9P65M/ref=tmm_kin_swatch_0"
+                    data-portfolio-website="https://shop.tredition.com/booktitle/Shinobi_-_Der_Weg_der_Schatten/W-1_137325">
+                    
+                    <picture class="d-block book-thumbnail" data-aos="reveal-left">
+                        <img class="img-fluid rounded shadow-sm" src="./assets/images/shinobi-1.jpg" alt="Book Cover">
+                    </picture>         
+                </div>
+
+                <!-- Book 2 -->
+                <div 
+                    class="portfolio-item"
+                    data-bs-toggle="modal" 
+                    data-bs-target="#portfolioModal"
+                    data-portfolio-img="./assets/images/shinobi-2.jpg"
+                    data-portfolio-title="S 2"
+                    data-portfolio-description="Sed quis mauris id quam rutrum ullamcorper. Donec faucibus eget elit nec iaculis. Vivamus laoreet consectetur felis at consequat. Sed finibus turpis in nisl molestie, eu dignissim nulla pharetra."
+                    data-portfolio-genre="Historical Fiction"
+                    data-portfolio-pages="–––"
+                    data-portfolio-amazon="https://www.amazon.de/-/en/Danny-Seel-ebook/dp/B0DSV53MD3/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.IFUOPEqcpgbtbfaavInHw0kKyooKgCRCh71WpjMV_PgPMtoqTpQLwqtzxKa1IlwIq3Y4wzb1JD7gGyHcrnE5yPUFlwg9tjTPK8r-I49_VQOBADCiRPjkhSYxWJyEMAG4TVMey3DcGK-tmgl1AKgnDc6GWfPhzDe5fZ_0GByn3n-EeGgzWQgXzSJuXIRUOkB_L5TocApBMm0lBnDpOFUF6kItP_e0juZ14tU7vacbl-I.Rl5jNCHWZQT5bFtvNSpXVvn_LdOMIA7s8IQ9bb61fnM&qid=1740673103&sr=8-2"
+                    data-portfolio-website="https://shop.tredition.com/booktitle/Shinobi_-_Dem_Untergang_geweiht/W-1_121371">
+                    
+                    <picture class="d-block book-thumbnail" data-aos="reveal-left">
+                        <img class="img-fluid rounded shadow-sm" src="./assets/images/shinobi-2.jpg" alt="Book Cover">
+                    </picture>         
+                </div>
+
+                <!-- Book 3 -->
+                <div 
+                    class="portfolio-item"
+                    data-bs-toggle="modal" 
+                    data-bs-target="#portfolioModal"
+                    data-portfolio-img="./assets/images/shinobi-3.jpg"
+                    data-portfolio-title="S 3"
+                    data-portfolio-description="Sed quis mauris id quam rutrum ullamcorper. Donec faucibus eget elit nec iaculis. Vivamus laoreet consectetur felis at consequat. Sed finibus turpis in nisl molestie, eu dignissim nulla pharetra."
+                    data-portfolio-genre="Historical Fiction"
+                    data-portfolio-pages="–––"
+                    data-portfolio-amazon="https://www.amazon.de/-/en/gp/product/B0DT46NCZC?ref_=dbs_p_pwh_rwt_cpsb_cl_2&storeType=ebooks"
+                    data-portfolio-website="https://shop.tredition.com/booktitle/Shinobi_-_Die_Ausl%3fschung/W-660-995-131">
+                    
+                    <picture class="d-block book-thumbnail" data-aos="reveal-left">
+                        <img class="img-fluid rounded shadow-sm" src="./assets/images/shinobi-3.jpg" alt="Book Cover">
+                    </picture>         
                 </div>
             </div>
         </div>
-        <!-- / My Portfolio-->
+        <!-- My Books-->   
 
         <!-- /Page Content -->
     </section>
@@ -347,12 +410,24 @@
                                         <h3 class="display-5 mb-3"></h3>
                                         <p class="text-muted"></p>
                                     </div>
-                                    <div class="client my-4">
-                                        <p class="text-uppercase small fw-bolder mb-1">Client</p>
+
+                                    <div class="buy-links mt-4">
+                                        <a href="#" target="_blank" class="btn btn-dark me-2 amazon-link">
+                                            <i class="fab fa-amazon"></i> Get it on Amazon
+                                        </a>
+
+                                        <a href="#" target="_blank" class="btn btn-primary website-link d-inline-flex align-items-center">
+                                            <img src="./assets/images/tredition.svg" alt="Tredition" class="tredition-icon">
+                                            <span>Get it on tredition</span>
+                                        </a>                                                                              
+                                    </div>
+
+                                    <div class="genre my-4">
+                                        <p class="text-uppercase small fw-bolder mb-1">Genre</p>
                                         <p class="text-muted small"></p>
                                     </div>
-                                    <div class="category">
-                                        <p class="text-uppercase small fw-bolder mb-1">Category</p>
+                                    <div class="pages">
+                                        <p class="text-uppercase small fw-bolder mb-1">Page Count</p>
                                         <p class="text-muted small"></p>
                                     </div>
                                 </div>
@@ -410,6 +485,14 @@
                                     data-target=".portfolio"
                                 >
                                     My Portfolio
+                                </a>
+                            </li>
+                            <li class="slideout-navitem">
+                                <a class="slideout-navlink" href="#"
+                                    data-pixr-scrollto
+                                    data-target=".books"
+                                >
+                                    My Books
                                 </a>
                             </li>
                         </ul>
