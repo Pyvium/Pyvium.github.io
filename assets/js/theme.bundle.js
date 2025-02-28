@@ -32,7 +32,6 @@
     r&&a&&r.setAttribute("src",a);
     e({target:i,value:u});
     e({target:c,value:l});
-    // if (shortDesc && shortDescData) shortDesc.textContent = shortDescData;  
     if (fullDesc && fullDescData) {
         fullDesc.textContent = fullDescData;
         fullDesc.classList.add("d-none"); // Always hide full desc initially
