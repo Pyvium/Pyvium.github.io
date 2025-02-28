@@ -36,3 +36,9 @@
     height: auto;
     margin-right: 8px;
 }
+
+.tredition-white {
+    filter: invert(1) !important;
+    max-height: 32px;
+    width: auto;
+}
