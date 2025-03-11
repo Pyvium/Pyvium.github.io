@@ -19,6 +19,6 @@ This website serves as an introduction to my professional background. Feel free 
 
 ---
 
-For any inquiries, you can connect with me via LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/danny-seel/).
+For any enquiries, you can connect with me via [LinkedIn](https://www.linkedin.com/in/danny-seel/).
 
 Built using a template by [Pixel Rocket](https://github.com/PixelRocket-Shop/muse-html-bootstrap).
